@@ -2,7 +2,7 @@
 
 This is the officila repository for the paper **RECAP: Retrieval-Augmented Audio Captioning** accepted at ICASSP 2024 for oral presentation.
 
-[[`Paper`](https://arxiv.org/abs/2309.09836)] [[`Checkpoints`]()] [[`Weakly labeled captions for AudioSet, AudioCaps, and Clotho`]()]
+[[`Paper`](https://ieeexplore.ieee.org/abstract/document/10448030)] [[`Checkpoints`]()] [[`Weakly labeled captions for AudioSet, AudioCaps, and Clotho`]()]
 
 We present RECAP (REtrieval-Augmented Audio CAPtioning), a novel and effective audio captioning system that generates captions conditioned on an input audio and other captions similar to the audio retrieved from a datastore. Additionally, our proposed method can transfer to any domain without the need for any additional fine-tuning. To generate a caption for an audio sample, we leverage an audio-text model CLAP to retrieve captions similar to it from a replaceable datastore, which are then used to construct a prompt. Next, we feed this prompt to a GPT-2 decoder and introduce cross-attention layers between the CLAP encoder and GPT-2 to condition the audio for caption generation. Experiments on two benchmark datasets, Clotho and AudioCaps, show that RECAP achieves competitive performance in in-domain settings and significant improvements in out-of-domain settings. Additionally, due to its capability to exploit a large text-captions-only datastore in a _training-free_ fashion, RECAP shows unique capabilities of captioning novel audio events never seen during training and compositional audios with multiple events. To promote research in this space, we also release 150,000+ new weakly labeled captions for AudioSet, AudioCaps, and Clotho.
 
