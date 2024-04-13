@@ -1,6 +1,6 @@
 # RECAP: Retrieval-Augmented Audio Captioning
 
-This is the officila repository for the paper **RECAP: Retrieval-Augmented Audio Captioning** accepted at ICASSP 2024 for oral presentation.
+This is the official repository for the paper **RECAP: Retrieval-Augmented Audio Captioning** accepted at ICASSP 2024 for oral presentation.
 
 [[`Paper`](https://ieeexplore.ieee.org/abstract/document/10448030)] [[`Checkpoints`]()] [[`Weakly labeled captions for AudioSet, AudioCaps, and Clotho`]()]
 
