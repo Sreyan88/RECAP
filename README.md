@@ -25,6 +25,12 @@ bash recap.sh
 ## Using CLAP Checkpoints
 Once you have downloaded our [CLAP checkpoints](https://drive.google.com/drive/folders/1gcvboyMj_p0jj1CNhR2ZzuJYZ7Qrcw8v?usp=sharing), you can use them for evaluation using [CLAP](https://github.com/LAION-AI/CLAP/tree/6b1b4b5b4b87f4e19d3836d2ae7d7272e1c69410/src/laion_clap/evaluate).
 
+## Acknowledgements
+Our codebase has been inspired by [SmallCap](https://github.com/RitaRamo/smallcap). We thank the authors for open-sourcing [their work](https://openaccess.thecvf.com/content/CVPR2023/papers/Ramos_SmallCap_Lightweight_Image_Captioning_Prompted_With_Retrieval_Augmentation_CVPR_2023_paper.pdf).
+
+## License
+
+
 ## Citation
 ```BibTeX
 @INPROCEEDINGS{10448030,
